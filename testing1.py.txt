@@ -1,1 +1,4 @@
-print ("hello world")
+x = 23
+while x < 24 :
+    print ("hello world")
+    x += 1
