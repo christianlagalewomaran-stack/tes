@@ -2,3 +2,19 @@ x = 23
 while x < 24 :
     print ("hello world")
     x += 1
+
+angka= int (input ("masukan angka"))
+if angka > 80  and angka <= 100:
+    if angka > 85:
+        print ("A+")
+    else:
+        print ("A-")
+elif  angka >70 and angka <= 80: 
+        print ("B")
+else :  
+    print("C")
+    
+
+usia = 30
+status = "orang tua atau dewasa" if usia <= 30 else "jompo"
+print (status)
